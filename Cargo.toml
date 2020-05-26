@@ -1,0 +1,13 @@
+[package]
+name = "serde_minecraft"
+version = "0.1.0"
+authors = ["Justus K <justus.k@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+displaydoc = "0.1.6"
+thiserror = "1.0.19"
+
+[dependencies.serde]
+version = "1.0.110"
+features = ["derive"]
