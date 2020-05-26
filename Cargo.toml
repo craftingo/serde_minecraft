@@ -1,7 +1,10 @@
 [package]
 name = "serde_minecraft"
 version = "0.1.0"
-authors = ["Justus K <justus.k@protonmail.com>"]
+authors = [
+    "Justus K <justus.k@protonmail.com>",
+    "Valentin B. <valentin.be@protonmail.com>",
+]
 edition = "2018"
 
 [dependencies]
