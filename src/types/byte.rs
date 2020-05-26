@@ -29,12 +29,6 @@ impl From<i8> for Byte {
     }
 }
 
-impl From<u8> for Byte {
-    fn from(value: u8) -> Self {
-        Self::new(value as i8)
-    }
-}
-
 impl Into<i8> for Byte {
     fn into(self) -> i8 {
         self.0
